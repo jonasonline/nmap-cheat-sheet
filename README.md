@@ -8,5 +8,5 @@ nmap -sS -sV -p [Port number] -v -n -Pn --script banner [host/IP]
 
 ## Vulnerability scanning
 ```Bash
-nmap -sV --script=exploit,external,vuln,auth,default -oX nmap-metasploitable-test2.xml --webxml [host/IP]
+nmap -sV --script=exploit,external,vuln,auth,default -oX nmap-output.xml --webxml [host/IP]
 ```
