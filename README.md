@@ -3,7 +3,7 @@ A collection of useful Nmap commands
 
 ## Banner grabbing
 ```Bash
-nmap -sS -sV -p 80 -v -n -Pn --script banner [host/IP]
+nmap -sS -sV -p [Port number] -v -n -Pn --script banner [host/IP]
 ```
 
 ## Vulnerability scanning
