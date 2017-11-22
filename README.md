@@ -1,6 +1,9 @@
 # nmap-cheat-sheet
 A collection of useful Nmap commands
 
+## Updating scripts
+nmap --script-updatedb
+
 ## Banner grabbing
 ```Bash
 nmap -sS -sV -p [Port number] -v -n -Pn --script banner [host/IP]
