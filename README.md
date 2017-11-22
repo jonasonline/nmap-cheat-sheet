@@ -1,6 +1,12 @@
 # nmap-cheat-sheet
 A collection of useful Nmap commands
 
+## Verbose service/OS scan
+
+```Bash
+nmap -p 0-65535 -T4 -A -v [host/IP]
+```
+
 ## Updating scripts
 ```Bash
 nmap --script-updatedb
