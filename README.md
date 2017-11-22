@@ -2,7 +2,9 @@
 A collection of useful Nmap commands
 
 ## Updating scripts
+```Bash
 nmap --script-updatedb
+```
 
 ## Banner grabbing
 ```Bash
