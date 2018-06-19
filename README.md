@@ -7,7 +7,7 @@ A collection of useful Nmap commands
 nmap -p 0-65535 -T4 -A -v [host/IP]
 ```
 
-## Updating scripts
+## Update scripts
 ```Bash
 nmap --script-updatedb
 ```
