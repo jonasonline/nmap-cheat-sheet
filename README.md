@@ -6,7 +6,10 @@ A collection of useful Nmap commands
 ```Bash
 nmap -p 0-65535 -T4 -A -v [host/IP]
 ```
-
+## ping sweep scan
+```Bash
+ping sweep sudo nmap -pn <ip> [host/IP]
+```
 ## Update scripts
 ```Bash
 nmap --script-updatedb
