@@ -12,6 +12,11 @@ nmap -p 0-65535 -T4 -A -v [host/IP]
 nmap --script-updatedb
 ```
 
+## Default script scan
+```Bash
+nmap -sC -sV -oA nmap/out [host/IP]
+```
+
 ## Banner grabbing
 ```Bash
 nmap -sS -sV -p [Port number] -v -n -Pn --script banner [host/IP]
